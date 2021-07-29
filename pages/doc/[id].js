@@ -37,21 +37,24 @@ const Doc = () => {
                         <p className="cursor-pointer hover:bg-gray-100 p-2 duration-100 ease-in-out rounded-lg">Tools</p>
                     </div>
                 </div>
-                <Button
-                    color="lightBlue"
-                    buttonType="filles"
-                    size="regular"
-                    className="hidden md:flex lg:flex h-10"
-                    rounded={false}
-                    block={false}
-                    iconOnly={false}
-                    ripple='light'
-                >
-                    <Icon name="people" size="md" /> Share
-                </Button>
-                <img
-                    className="cursor-pointer rounded-full h-10 w-10 ml-2"
-                    src={session?.user?.image} alt="User Image" />
+                <div className="hidden md:flex lg:flex">
+                    <Button
+                        color="lightBlue"
+                        buttonType="filles"
+                        size="regular"
+                        className="hidden md:flex lg:flex h-10"
+                        rounded={false}
+                        block={false}
+                        iconOnly={false}
+                        ripple='light'
+                    >
+                        <Icon name="people" size="md" /> Share
+                    </Button>
+                    <img
+                        className="cursor-pointer rounded-full h-10 w-10 ml-2"
+                        src={session?.user?.image} alt="User Image" />
+                </div>
+
             </header>
             <TextEditor />
         </div>
