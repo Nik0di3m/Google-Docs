@@ -35,11 +35,11 @@ const Header = () => {
                 rounded={true}
                 iconOnly={true}
                 ripple='dark'
-                className="hidden md:flex lg:flex ml-5 md:ml-20 h-20 w-20 border-0"
+                className="hidden md:flex lg:flex ml-5 md:ml-10 h-20 w-20 border-0"
             >
                 <Icon name='apps' size="3xl" color="gray" />
             </Button>
-            <div className="">
+            <div className="mr-10">
                 <img
                     loading="lazy"
                     onClick={signOut}
