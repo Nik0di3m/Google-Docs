@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-    apiKey: process.env.FIREBASE_API_KEY,
-    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.FIREBASE_PROJECT_ID,
-    storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.FIREBASE_APP_ID,
+    apiKey: "AIzaSyBHdNTxldn-9JiQ9Z1_kpjL719Q6YUhHBg",
+    authDomain: "docs-cole.firebaseapp.com",
+    projectId: "docs-cole",
+    storageBucket: "docs-cole.appspot.com",
+    messagingSenderId: "275684596892",
+    appId: "1:275684596892:web:e1831b0cff58dafe972159"
 };
 
 const app = !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app();
